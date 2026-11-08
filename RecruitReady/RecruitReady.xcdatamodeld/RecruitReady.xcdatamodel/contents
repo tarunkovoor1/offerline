@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23F79" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CollegeData" representedClassName="CollegeData" syncable="YES">
+        <attribute name="coach_email_1" optional="YES" attributeType="String"/>
+        <attribute name="coach_email_2" optional="YES" attributeType="String"/>
+        <attribute name="coach_email_3" optional="YES" attributeType="String"/>
+        <attribute name="coach_email_4" optional="YES" attributeType="String"/>
+        <attribute name="coach_email_5" optional="YES" attributeType="String"/>
+        <attribute name="coach_phone_1" optional="YES" attributeType="String"/>
+        <attribute name="coach_phone_2" optional="YES" attributeType="String"/>
+        <attribute name="coach_phone_3" optional="YES" attributeType="String"/>
+        <attribute name="coach_phone_4" optional="YES" attributeType="String"/>
+        <attribute name="coach_phone_5" optional="YES" attributeType="String"/>
+        <attribute name="coach_title_1" optional="YES" attributeType="String"/>
+        <attribute name="coach_title_2" optional="YES" attributeType="String"/>
+        <attribute name="coach_title_3" optional="YES" attributeType="String"/>
+        <attribute name="coach_title_4" optional="YES" attributeType="String"/>
+        <attribute name="coach_title_5" optional="YES" attributeType="String"/>
+        <attribute name="college_division" optional="YES" attributeType="String"/>
+        <attribute name="college_name" optional="YES" attributeType="String"/>
+        <attribute name="college_number" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="CollegeNote" representedClassName="CollegeNote" syncable="YES">
+        <attribute name="college_no" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="noteData" optional="YES" attributeType="Binary"/>
+    </entity>
+    <entity name="CollegeResume" representedClassName="CollegeResume" syncable="YES">
+        <attribute name="bookmarkData" optional="YES" attributeType="Binary"/>
+        <attribute name="college_no" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="path" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="DraftData" representedClassName="DraftData" syncable="YES">
+        <attribute name="bcc" optional="YES" attributeType="String"/>
+        <attribute name="body" optional="YES" attributeType="String"/>
+        <attribute name="cc" optional="YES" attributeType="String"/>
+        <attribute name="draft_number" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="subject" optional="YES" attributeType="String"/>
+        <attribute name="to" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ResumeData" representedClassName="ResumeData" syncable="YES">
+        <attribute name="bookmarkData" optional="YES" attributeType="Binary"/>
+        <attribute name="path" optional="YES" attributeType="String"/>
+        <attribute name="resume_number" optional="YES" attributeType="Integer 64" minValueString="1" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+    </entity>
+</model>
