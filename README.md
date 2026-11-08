@@ -1,6 +1,6 @@
-RecruitReady
+Offerline
 
-A macOS app that helps high school athletes manage the college recruiting process. It keeps college coaching contacts, resumes, email templates, and notes in one place, and lets you send a personalized email to a coach in a couple of clicks.
+A macOS app that helps high school athletes receive an offer at the finish line. It keeps college coaching contacts, resumes, email templates, and notes in one place, and lets you send a personalized email to a coach in a couple of clicks. 
 
 
 The problem:
