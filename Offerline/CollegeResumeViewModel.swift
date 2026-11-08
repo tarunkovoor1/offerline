@@ -1,6 +1,6 @@
 //
 //  CollegeResumeViewModel.swift
-//  RecruitReady
+//  Offerline
 //
 //  Created by Tarun Kovoor on 4/6/24.
 //
@@ -8,7 +8,7 @@
 import Foundation
 //
 //  ResumeViewModel.swift
-//  RecruitReady
+//  Offerline
 //
 //  Created by Tarun Kovoor on 1/29/24.
 //

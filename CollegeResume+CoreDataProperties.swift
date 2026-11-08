@@ -1,6 +1,6 @@
 //
 //  CollegeResume + CoreDataProperties.swift
-//  RecruitReady
+//  Offerline
 //
 //  Created by Tarun Kovoor on 4/6/24.
 //

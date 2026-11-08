@@ -1,14 +1,14 @@
 //
-//  RecruitReadyTests.swift
-//  RecruitReadyTests
+//  OfferlineTests.swift
+//  OfferlineTests
 //
 //  Created by Tarun Kovoor on 1/29/24.
 //
 
 import XCTest
-@testable import RecruitReady
+@testable import Offerline
 
-final class RecruitReadyTests: XCTestCase {
+final class OfferlineTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

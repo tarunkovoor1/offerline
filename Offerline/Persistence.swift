@@ -1,6 +1,6 @@
 //
 //  Persistence.swift
-//  RecruitReady
+//  Offerline
 //
 //  Created by Tarun Kovoor on 1/29/24.
 //
@@ -31,9 +31,11 @@ struct PersistenceController {
     let container: NSPersistentContainer
 
     init(inMemory: Bool = false) {
-        container = NSPersistentContainer(name: "RecruitReady")
+        container = NSPersistentContainer(name: "Offerline")
         if inMemory {
             container.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
+        } else {
+            Self.migrateLegacyStoreIfNeeded()
         }
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
@@ -52,5 +54,24 @@ struct PersistenceController {
             }
         })
         container.viewContext.automaticallyMergesChangesFromParent = true
+    }
+
+    /// The app was renamed from RecruitReady to Offerline, which changed the store
+    /// file name. Move the old store (and its WAL/SHM sidecars) so existing data is kept.
+    private static func migrateLegacyStoreIfNeeded() {
+        let fileManager = FileManager.default
+        let directory = NSPersistentContainer.defaultDirectoryURL()
+        let newStore = directory.appendingPathComponent("Offerline.sqlite")
+        let oldStore = directory.appendingPathComponent("RecruitReady.sqlite")
+        guard !fileManager.fileExists(atPath: newStore.path),
+              fileManager.fileExists(atPath: oldStore.path) else { return }
+
+        for suffix in ["", "-wal", "-shm"] {
+            let from = URL(fileURLWithPath: oldStore.path + suffix)
+            let to = URL(fileURLWithPath: newStore.path + suffix)
+            if fileManager.fileExists(atPath: from.path) {
+                try? fileManager.moveItem(at: from, to: to)
+            }
+        }
     }
 }

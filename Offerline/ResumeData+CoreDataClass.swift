@@ -1,6 +1,6 @@
 //
 //  ResumeData+CoreDataClass.swift
-//  RecruitReady
+//  Offerline
 //
 //  Created by Tarun Kovoor on 1/29/24.
 //

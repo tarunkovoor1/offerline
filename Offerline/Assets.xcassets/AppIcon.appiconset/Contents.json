@@ -1,61 +1,61 @@
 {
   "images" : [
     {
-      "filename" : "RecruitReady16.png",
+      "filename" : "Offerline16.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "16x16"
     },
     {
-      "filename" : "RecruitReady32 1.png",
+      "filename" : "Offerline32 1.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "16x16"
     },
     {
-      "filename" : "RecruitReady32.png",
+      "filename" : "Offerline32.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "32x32"
     },
     {
-      "filename" : "RecruitReady64.png",
+      "filename" : "Offerline64.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "32x32"
     },
     {
-      "filename" : "RecruitReady128.png",
+      "filename" : "Offerline128.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "128x128"
     },
     {
-      "filename" : "RecruitReady256 1.png",
+      "filename" : "Offerline256 1.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "128x128"
     },
     {
-      "filename" : "RecruitReady256.png",
+      "filename" : "Offerline256.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "256x256"
     },
     {
-      "filename" : "RecruitReady512 1.png",
+      "filename" : "Offerline512 1.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "256x256"
     },
     {
-      "filename" : "RecruitReady512.png",
+      "filename" : "Offerline512.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "512x512"
     },
     {
-      "filename" : "RecruitReady1024.png",
+      "filename" : "Offerline1024.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "512x512"

@@ -1,6 +1,6 @@
 //
-//  RecruitReadyApp.swift
-//  RecruitReady
+//  OfferlineApp.swift
+//  Offerline
 //
 //  Created by Tarun Kovoor on 1/29/24.
 //
@@ -11,7 +11,7 @@ import SwiftUI
 
 
 @main
-struct RecruitReadyApp: App {
+struct OfferlineApp: App {
     let persistenceController = PersistenceController.shared
     var body: some Scene {
         

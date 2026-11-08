@@ -1,6 +1,6 @@
 //
 //  DashboardView.swift
-//  RecruitReady
+//  Offerline
 //
 //  Created by Ninan Thomas on 4/21/24.
 //

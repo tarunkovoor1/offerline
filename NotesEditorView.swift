@@ -1,6 +1,6 @@
 //
 //  NotesEditorView.swift
-//  RecruitReady
+//  Offerline
 //
 //  Created by Ninan Thomas on 5/24/24.
 //

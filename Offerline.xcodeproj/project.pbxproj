@@ -9,16 +9,16 @@
 /* Begin PBXBuildFile section */
 		B4387DCE2B6893AE00098B7C /* ResumeData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4387DCC2B6893AE00098B7C /* ResumeData+CoreDataClass.swift */; };
 		B4387DCF2B6893AE00098B7C /* ResumeData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4387DCD2B6893AE00098B7C /* ResumeData+CoreDataProperties.swift */; };
-		B4459CD52B68737300665150 /* RecruitReadyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4459CD42B68737300665150 /* RecruitReadyApp.swift */; };
+		B4459CD52B68737300665150 /* OfferlineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4459CD42B68737300665150 /* OfferlineApp.swift */; };
 		B4459CD72B68737300665150 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4459CD62B68737300665150 /* ContentView.swift */; };
 		B4459CD92B68737600665150 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4459CD82B68737600665150 /* Assets.xcassets */; };
 		B4459CDC2B68737600665150 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4459CDB2B68737600665150 /* Preview Assets.xcassets */; };
 		B4459CDE2B68737600665150 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4459CDD2B68737600665150 /* Persistence.swift */; };
-		B4459CEC2B68737600665150 /* RecruitReadyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4459CEB2B68737600665150 /* RecruitReadyTests.swift */; };
-		B4459CF62B68737600665150 /* RecruitReadyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4459CF52B68737600665150 /* RecruitReadyUITests.swift */; };
-		B4459CF82B68737600665150 /* RecruitReadyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4459CF72B68737600665150 /* RecruitReadyUITestsLaunchTests.swift */; };
+		B4459CEC2B68737600665150 /* OfferlineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4459CEB2B68737600665150 /* OfferlineTests.swift */; };
+		B4459CF62B68737600665150 /* OfferlineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4459CF52B68737600665150 /* OfferlineUITests.swift */; };
+		B4459CF82B68737600665150 /* OfferlineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4459CF72B68737600665150 /* OfferlineUITestsLaunchTests.swift */; };
 		B4459D082B688B8A00665150 /* ResumeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4459D072B688B8A00665150 /* ResumeViewModel.swift */; };
-		B4459D0B2B688CEE00665150 /* RecruitReady.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B4459D092B688CEE00665150 /* RecruitReady.xcdatamodeld */; };
+		B4459D0B2B688CEE00665150 /* Offerline.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B4459D092B688CEE00665150 /* Offerline.xcdatamodeld */; };
 		B4C798F52BBC71D600546C89 /* CollegeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C798F42BBC71D600546C89 /* CollegeViewModel.swift */; };
 		B4C798F72BBC735800546C89 /* CollegeData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C798F62BBC735800546C89 /* CollegeData+CoreDataProperties.swift */; };
 		B4C798F92BC02A1500546C89 /* DraftData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C798F82BC02A1500546C89 /* DraftData+CoreDataProperties.swift */; };
@@ -41,34 +41,34 @@
 			containerPortal = B4459CC92B68737300665150 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B4459CD02B68737300665150;
-			remoteInfo = RecruitReady;
+			remoteInfo = Offerline;
 		};
 		B4459CF22B68737600665150 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B4459CC92B68737300665150 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B4459CD02B68737300665150;
-			remoteInfo = RecruitReady;
+			remoteInfo = Offerline;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B4387DCC2B6893AE00098B7C /* ResumeData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ResumeData+CoreDataClass.swift"; path = "RecruitReady/ResumeData+CoreDataClass.swift"; sourceTree = "<group>"; };
-		B4387DCD2B6893AE00098B7C /* ResumeData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ResumeData+CoreDataProperties.swift"; path = "RecruitReady/ResumeData+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		B4459CD12B68737300665150 /* RecruitReady.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecruitReady.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4459CD42B68737300665150 /* RecruitReadyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecruitReadyApp.swift; sourceTree = "<group>"; };
+		B4387DCC2B6893AE00098B7C /* ResumeData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ResumeData+CoreDataClass.swift"; path = "Offerline/ResumeData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B4387DCD2B6893AE00098B7C /* ResumeData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ResumeData+CoreDataProperties.swift"; path = "Offerline/ResumeData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B4459CD12B68737300665150 /* Offerline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Offerline.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4459CD42B68737300665150 /* OfferlineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferlineApp.swift; sourceTree = "<group>"; };
 		B4459CD62B68737300665150 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B4459CD82B68737600665150 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4459CDB2B68737600665150 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B4459CDD2B68737600665150 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		B4459CE22B68737600665150 /* RecruitReady.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RecruitReady.entitlements; sourceTree = "<group>"; };
-		B4459CE72B68737600665150 /* RecruitReadyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecruitReadyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4459CEB2B68737600665150 /* RecruitReadyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecruitReadyTests.swift; sourceTree = "<group>"; };
-		B4459CF12B68737600665150 /* RecruitReadyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecruitReadyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4459CF52B68737600665150 /* RecruitReadyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecruitReadyUITests.swift; sourceTree = "<group>"; };
-		B4459CF72B68737600665150 /* RecruitReadyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecruitReadyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B4459CE22B68737600665150 /* Offerline.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Offerline.entitlements; sourceTree = "<group>"; };
+		B4459CE72B68737600665150 /* OfferlineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OfferlineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4459CEB2B68737600665150 /* OfferlineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferlineTests.swift; sourceTree = "<group>"; };
+		B4459CF12B68737600665150 /* OfferlineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OfferlineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4459CF52B68737600665150 /* OfferlineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferlineUITests.swift; sourceTree = "<group>"; };
+		B4459CF72B68737600665150 /* OfferlineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferlineUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B4459D072B688B8A00665150 /* ResumeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeViewModel.swift; sourceTree = "<group>"; };
-		B4459D0A2B688CEE00665150 /* RecruitReady.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RecruitReady.xcdatamodel; sourceTree = "<group>"; };
+		B4459D0A2B688CEE00665150 /* Offerline.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Offerline.xcdatamodel; sourceTree = "<group>"; };
 		B48366ED2C84DEB00003C6DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4C798F42BBC71D600546C89 /* CollegeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeViewModel.swift; sourceTree = SOURCE_ROOT; };
 		B4C798F62BBC735800546C89 /* CollegeData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CollegeData+CoreDataProperties.swift"; sourceTree = "<group>"; };
@@ -123,9 +123,9 @@
 				B4C798FC2BC20DE200546C89 /* CollegeResume+CoreDataProperties.swift */,
 				E8FBBF232C017A6000E402AF /* CollegeNote.swift */,
 				E8FBBF252C017D8000E402AF /* CollegeNoteViewModel.swift */,
-				B4459CD32B68737300665150 /* RecruitReady */,
-				B4459CEA2B68737600665150 /* RecruitReadyTests */,
-				B4459CF42B68737600665150 /* RecruitReadyUITests */,
+				B4459CD32B68737300665150 /* Offerline */,
+				B4459CEA2B68737600665150 /* OfferlineTests */,
+				B4459CF42B68737600665150 /* OfferlineUITests */,
 				B4459CD22B68737300665150 /* Products */,
 				E81F1AA62BE637F6005A4535 /* Frameworks */,
 			);
@@ -134,23 +134,23 @@
 		B4459CD22B68737300665150 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B4459CD12B68737300665150 /* RecruitReady.app */,
-				B4459CE72B68737600665150 /* RecruitReadyTests.xctest */,
-				B4459CF12B68737600665150 /* RecruitReadyUITests.xctest */,
+				B4459CD12B68737300665150 /* Offerline.app */,
+				B4459CE72B68737600665150 /* OfferlineTests.xctest */,
+				B4459CF12B68737600665150 /* OfferlineUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B4459CD32B68737300665150 /* RecruitReady */ = {
+		B4459CD32B68737300665150 /* Offerline */ = {
 			isa = PBXGroup;
 			children = (
 				B48366ED2C84DEB00003C6DA /* Info.plist */,
-				B4459CD42B68737300665150 /* RecruitReadyApp.swift */,
+				B4459CD42B68737300665150 /* OfferlineApp.swift */,
 				B4459CD62B68737300665150 /* ContentView.swift */,
 				E81F1AA12BD59175005A4535 /* DashboardView.swift */,
 				E81F1AA32BD591CD005A4535 /* DraftView.swift */,
 				E81F1A9F2BD58D9E005A4535 /* CollegeContactsView.swift */,
-				B4459D092B688CEE00665150 /* RecruitReady.xcdatamodeld */,
+				B4459D092B688CEE00665150 /* Offerline.xcdatamodeld */,
 				B4459CD82B68737600665150 /* Assets.xcassets */,
 				B4459CDD2B68737600665150 /* Persistence.swift */,
 				B4459D072B688B8A00665150 /* ResumeViewModel.swift */,
@@ -158,10 +158,10 @@
 				B4C798F42BBC71D600546C89 /* CollegeViewModel.swift */,
 				B4C798FA2BC02A2A00546C89 /* DraftViewModel.swift */,
 				B4C798FE2BC211C300546C89 /* CollegeResumeViewModel.swift */,
-				B4459CE22B68737600665150 /* RecruitReady.entitlements */,
+				B4459CE22B68737600665150 /* Offerline.entitlements */,
 				B4459CDA2B68737600665150 /* Preview Content */,
 			);
-			path = RecruitReady;
+			path = Offerline;
 			sourceTree = "<group>";
 		};
 		B4459CDA2B68737600665150 /* Preview Content */ = {
@@ -172,21 +172,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		B4459CEA2B68737600665150 /* RecruitReadyTests */ = {
+		B4459CEA2B68737600665150 /* OfferlineTests */ = {
 			isa = PBXGroup;
 			children = (
-				B4459CEB2B68737600665150 /* RecruitReadyTests.swift */,
+				B4459CEB2B68737600665150 /* OfferlineTests.swift */,
 			);
-			path = RecruitReadyTests;
+			path = OfferlineTests;
 			sourceTree = "<group>";
 		};
-		B4459CF42B68737600665150 /* RecruitReadyUITests */ = {
+		B4459CF42B68737600665150 /* OfferlineUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B4459CF52B68737600665150 /* RecruitReadyUITests.swift */,
-				B4459CF72B68737600665150 /* RecruitReadyUITestsLaunchTests.swift */,
+				B4459CF52B68737600665150 /* OfferlineUITests.swift */,
+				B4459CF72B68737600665150 /* OfferlineUITestsLaunchTests.swift */,
 			);
-			path = RecruitReadyUITests;
+			path = OfferlineUITests;
 			sourceTree = "<group>";
 		};
 		E81F1AA62BE637F6005A4535 /* Frameworks */ = {
@@ -199,9 +199,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B4459CD02B68737300665150 /* RecruitReady */ = {
+		B4459CD02B68737300665150 /* Offerline */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B4459CFB2B68737600665150 /* Build configuration list for PBXNativeTarget "RecruitReady" */;
+			buildConfigurationList = B4459CFB2B68737600665150 /* Build configuration list for PBXNativeTarget "Offerline" */;
 			buildPhases = (
 				B4459CCD2B68737300665150 /* Sources */,
 				B4459CCE2B68737300665150 /* Frameworks */,
@@ -211,16 +211,16 @@
 			);
 			dependencies = (
 			);
-			name = RecruitReady;
+			name = Offerline;
 			packageProductDependencies = (
 			);
-			productName = RecruitReady;
-			productReference = B4459CD12B68737300665150 /* RecruitReady.app */;
+			productName = Offerline;
+			productReference = B4459CD12B68737300665150 /* Offerline.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B4459CE62B68737600665150 /* RecruitReadyTests */ = {
+		B4459CE62B68737600665150 /* OfferlineTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B4459CFE2B68737600665150 /* Build configuration list for PBXNativeTarget "RecruitReadyTests" */;
+			buildConfigurationList = B4459CFE2B68737600665150 /* Build configuration list for PBXNativeTarget "OfferlineTests" */;
 			buildPhases = (
 				B4459CE32B68737600665150 /* Sources */,
 				B4459CE42B68737600665150 /* Frameworks */,
@@ -231,14 +231,14 @@
 			dependencies = (
 				B4459CE92B68737600665150 /* PBXTargetDependency */,
 			);
-			name = RecruitReadyTests;
-			productName = RecruitReadyTests;
-			productReference = B4459CE72B68737600665150 /* RecruitReadyTests.xctest */;
+			name = OfferlineTests;
+			productName = OfferlineTests;
+			productReference = B4459CE72B68737600665150 /* OfferlineTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B4459CF02B68737600665150 /* RecruitReadyUITests */ = {
+		B4459CF02B68737600665150 /* OfferlineUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B4459D012B68737600665150 /* Build configuration list for PBXNativeTarget "RecruitReadyUITests" */;
+			buildConfigurationList = B4459D012B68737600665150 /* Build configuration list for PBXNativeTarget "OfferlineUITests" */;
 			buildPhases = (
 				B4459CED2B68737600665150 /* Sources */,
 				B4459CEE2B68737600665150 /* Frameworks */,
@@ -249,9 +249,9 @@
 			dependencies = (
 				B4459CF32B68737600665150 /* PBXTargetDependency */,
 			);
-			name = RecruitReadyUITests;
-			productName = RecruitReadyUITests;
-			productReference = B4459CF12B68737600665150 /* RecruitReadyUITests.xctest */;
+			name = OfferlineUITests;
+			productName = OfferlineUITests;
+			productReference = B4459CF12B68737600665150 /* OfferlineUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -277,7 +277,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B4459CCC2B68737300665150 /* Build configuration list for PBXProject "RecruitReady" */;
+			buildConfigurationList = B4459CCC2B68737300665150 /* Build configuration list for PBXProject "Offerline" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -293,9 +293,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B4459CD02B68737300665150 /* RecruitReady */,
-				B4459CE62B68737600665150 /* RecruitReadyTests */,
-				B4459CF02B68737600665150 /* RecruitReadyUITests */,
+				B4459CD02B68737300665150 /* Offerline */,
+				B4459CE62B68737600665150 /* OfferlineTests */,
+				B4459CF02B68737600665150 /* OfferlineUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -335,7 +335,7 @@
 				B4C798F52BBC71D600546C89 /* CollegeViewModel.swift in Sources */,
 				E81F1AA22BD59175005A4535 /* DashboardView.swift in Sources */,
 				E8FBBF242C017A6000E402AF /* CollegeNote.swift in Sources */,
-				B4459D0B2B688CEE00665150 /* RecruitReady.xcdatamodeld in Sources */,
+				B4459D0B2B688CEE00665150 /* Offerline.xcdatamodeld in Sources */,
 				B4C798FD2BC20DE200546C89 /* CollegeResume+CoreDataProperties.swift in Sources */,
 				E81F1AA42BD591CD005A4535 /* DraftView.swift in Sources */,
 				B4459CDE2B68737600665150 /* Persistence.swift in Sources */,
@@ -351,7 +351,7 @@
 				E8FBBF222C00A78200E402AF /* NotesEditorView.swift in Sources */,
 				E81F1AA02BD58D9E005A4535 /* CollegeContactsView.swift in Sources */,
 				E8FBBF262C017D8100E402AF /* CollegeNoteViewModel.swift in Sources */,
-				B4459CD52B68737300665150 /* RecruitReadyApp.swift in Sources */,
+				B4459CD52B68737300665150 /* OfferlineApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,7 +359,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4459CEC2B68737600665150 /* RecruitReadyTests.swift in Sources */,
+				B4459CEC2B68737600665150 /* OfferlineTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,8 +367,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4459CF62B68737600665150 /* RecruitReadyUITests.swift in Sources */,
-				B4459CF82B68737600665150 /* RecruitReadyUITestsLaunchTests.swift in Sources */,
+				B4459CF62B68737600665150 /* OfferlineUITests.swift in Sources */,
+				B4459CF82B68737600665150 /* OfferlineUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,12 +377,12 @@
 /* Begin PBXTargetDependency section */
 		B4459CE92B68737600665150 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B4459CD02B68737300665150 /* RecruitReady */;
+			target = B4459CD02B68737300665150 /* Offerline */;
 			targetProxy = B4459CE82B68737600665150 /* PBXContainerItemProxy */;
 		};
 		B4459CF32B68737600665150 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B4459CD02B68737300665150 /* RecruitReady */;
+			target = B4459CD02B68737300665150 /* Offerline */;
 			targetProxy = B4459CF22B68737600665150 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -512,16 +512,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CODE_SIGN_ENTITLEMENTS = RecruitReady/RecruitReady.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Offerline/Offerline.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 3;
-				DEVELOPMENT_ASSET_PATHS = "\"RecruitReady/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Offerline/Preview Content\"";
 				DEVELOPMENT_TEAM = 3UHXH5XRU3;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RecruitReady/Info.plist;
+				INFOPLIST_FILE = Offerline/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -544,16 +544,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CODE_SIGN_ENTITLEMENTS = RecruitReady/RecruitReady.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Offerline/Offerline.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 3;
-				DEVELOPMENT_ASSET_PATHS = "\"RecruitReady/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Offerline/Preview Content\"";
 				DEVELOPMENT_TEAM = 3UHXH5XRU3;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RecruitReady/Info.plist;
+				INFOPLIST_FILE = Offerline/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -581,11 +581,11 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nshare.RecruitReadyTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nshare.OfferlineTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecruitReady.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RecruitReady";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Offerline.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Offerline";
 			};
 			name = Debug;
 		};
@@ -600,11 +600,11 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nshare.RecruitReadyTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nshare.OfferlineTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecruitReady.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RecruitReady";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Offerline.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Offerline";
 			};
 			name = Release;
 		};
@@ -617,11 +617,11 @@
 				DEVELOPMENT_TEAM = 3JEQ693MKL;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nshare.RecruitReadyUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nshare.OfferlineUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = RecruitReady;
+				TEST_TARGET_NAME = Offerline;
 			};
 			name = Debug;
 		};
@@ -634,18 +634,18 @@
 				DEVELOPMENT_TEAM = 3JEQ693MKL;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nshare.RecruitReadyUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nshare.OfferlineUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = RecruitReady;
+				TEST_TARGET_NAME = Offerline;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B4459CCC2B68737300665150 /* Build configuration list for PBXProject "RecruitReady" */ = {
+		B4459CCC2B68737300665150 /* Build configuration list for PBXProject "Offerline" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B4459CF92B68737600665150 /* Debug */,
@@ -654,7 +654,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B4459CFB2B68737600665150 /* Build configuration list for PBXNativeTarget "RecruitReady" */ = {
+		B4459CFB2B68737600665150 /* Build configuration list for PBXNativeTarget "Offerline" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B4459CFC2B68737600665150 /* Debug */,
@@ -663,7 +663,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B4459CFE2B68737600665150 /* Build configuration list for PBXNativeTarget "RecruitReadyTests" */ = {
+		B4459CFE2B68737600665150 /* Build configuration list for PBXNativeTarget "OfferlineTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B4459CFF2B68737600665150 /* Debug */,
@@ -672,7 +672,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B4459D012B68737600665150 /* Build configuration list for PBXNativeTarget "RecruitReadyUITests" */ = {
+		B4459D012B68737600665150 /* Build configuration list for PBXNativeTarget "OfferlineUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B4459D022B68737600665150 /* Debug */,
@@ -695,13 +695,13 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCVersionGroup section */
-		B4459D092B688CEE00665150 /* RecruitReady.xcdatamodeld */ = {
+		B4459D092B688CEE00665150 /* Offerline.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				B4459D0A2B688CEE00665150 /* RecruitReady.xcdatamodel */,
+				B4459D0A2B688CEE00665150 /* Offerline.xcdatamodel */,
 			);
-			currentVersion = B4459D0A2B688CEE00665150 /* RecruitReady.xcdatamodel */;
-			path = RecruitReady.xcdatamodeld;
+			currentVersion = B4459D0A2B688CEE00665150 /* Offerline.xcdatamodel */;
+			path = Offerline.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

@@ -1,6 +1,6 @@
 //
 //  DraftViewModel.swift
-//  RecruitReady
+//  Offerline
 //
 //  Created by Tarun Kovoor on 4/5/24.
 //

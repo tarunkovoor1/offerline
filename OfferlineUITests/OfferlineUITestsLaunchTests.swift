@@ -1,13 +1,13 @@
 //
-//  RecruitReadyUITestsLaunchTests.swift
-//  RecruitReadyUITests
+//  OfferlineUITestsLaunchTests.swift
+//  OfferlineUITests
 //
 //  Created by Tarun Kovoor on 1/29/24.
 //
 
 import XCTest
 
-final class RecruitReadyUITestsLaunchTests: XCTestCase {
+final class OfferlineUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
